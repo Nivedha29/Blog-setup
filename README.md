@@ -1,13 +1,47 @@
-# React + Vite
+# React Blog Platform
+A simple and responsive blog platform built with React, Vite, and React Router, powered by the RealWorld API. It displays a list of recent articles, supports pagination, and allows users to view article details with markdown-rendered content.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TECH STACK
+React – UI library
 
-Currently, two official plugins are available:
+Vite – Lightning-fast dev server and bundler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Router DOM – SPA routing
 
-## Expanding the ESLint configuration
+Axios – Data fetching
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Blog-setup
+React Markdown – Markdown content rendering
+
+ESLint – Code linting
+
+Prettier – Code formatting
+
+Husky – Git hooks
+
+# Dependencies
+  "axios": "^1.x",
+  
+  "react": "^18.x",
+  
+  "react-dom": "^18.x",
+  
+  "react-router-dom": "^6.x",
+  
+  "react-markdown": "^9.x"
+  
+  "eslint": "^8.x",
+  
+  "eslint-plugin-react": "^7.x",
+  
+  "eslint-config-prettier": "^9.x",
+  
+  "prettier": "^3.x",
+  
+  "husky": "^9.x",
+  
+  "vite": "^5.x"
+
+ # Running the Project
+npm install
+
+npm run dev
